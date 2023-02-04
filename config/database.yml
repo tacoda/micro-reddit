@@ -8,9 +8,9 @@ default: &default
 
 development:
   <<: *default
-  database: myapp_development
+  database: micro_reddit_development
 
 
 test:
   <<: *default
-  database: myapp_test
+  database: micro_reddit_test
